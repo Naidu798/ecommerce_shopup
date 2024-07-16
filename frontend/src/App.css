@@ -1,0 +1,15 @@
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: lightgray;
+  border-radius: 4px;
+}
+.blur {
+  backdrop-filter: blur(1px);
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
